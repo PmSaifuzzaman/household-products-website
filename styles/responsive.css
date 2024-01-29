@@ -1,0 +1,45 @@
+/* For mobile device */
+
+@media screen and (max-width:576px) {
+    main{
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+    }
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-container .nav-logo{
+        margin-bottom: 1.5rem;
+    }
+    .nav-content{
+        width: 100%;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-content-container{
+        width: 100%;
+        padding: 1.25rem;
+        /* margin-left: 1.25rem;
+        margin-right: 1.25rem; */
+        text-align: center;
+    }
+    /* Sponsor style */
+    .sponsor{
+        margin-left: 1rem;
+    }
+    .sponsor-container{
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        gap: 1.25rem;
+        padding-left: 1rem;
+    }
+
+    /* Product Section */
+    .product-container{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 20px;
+    
+    }
+}
